@@ -1,0 +1,47 @@
+time_BTT,source_tool,artefact,event
+2026-11-12 09:12:03,DB Browser/sqlite,MockBank mockbank.db,APP_OPEN on DEV-VICTIM-01: OK
+2026-11-12 13:58:30,ALEAPP,WhatsApp msgstore.db,"RECEIVED from ~Prize Officer: ""Congratulations! Your number has WON Nu 500,000 in the Druk Mega Lucky Draw 2026. Reply YE"""
+2026-11-12 13:58:40,ALEAPP,UsageStats protobuf,App com.whatsapp moved to FOREGROUND
+2026-11-12 13:59:12,ALEAPP,WhatsApp msgstore.db,"SENT to ~Prize Officer: ""Really? What should I do?"""
+2026-11-12 14:01:05,ALEAPP,WhatsApp msgstore.db,"RECEIVED from ~Prize Officer: ""Do not tell anyone. I am a prize officer. I will call you now to verify your account. Keep"""
+2026-11-12 14:01:30,ALEAPP,UsageStats protobuf,App com.whatsapp moved to background
+2026-11-12 14:02:10,ALEAPP,WhatsApp msgstore.db (call_log),"WhatsApp Audio call Incoming from ~Prize Officer, duration 00:00:00 (unanswered)"
+2026-11-12 14:03:44,ALEAPP,UsageStats protobuf,App com.android.dialer moved to FOREGROUND
+2026-11-12 14:03:45,ALEAPP,Call log calllog.db,"Incoming call +97577000222, duration 372s (6m12s)"
+2026-11-12 14:04:48,BANK (off-phone),Bank server log,OTP_REQUEST DEVICE_REGISTRATION from Redmi-X 203.0.113.45
+2026-11-12 14:04:50,ALEAPP,SMS mmssms.db,SMS Received from DBB-BANK: Your OTP for MockBank device registration is 482913. Valid for 5 min. DO NOT share it with anyo
+2026-11-12 14:04:50,DB Browser/sqlite,MockBank mockbank.db,OTP issued (DEVICE_REGISTRATION) to +97517000001
+2026-11-12 14:04:51,custom parser,Notification log,Notification from messaging (DBB-BANK): Your OTP for MockBank device registration is 482913...
+2026-11-12 14:05:35,BANK (off-phone),Bank server log,OTP_VERIFY_OK DEVICE_REGISTRATION from Redmi-X 203.0.113.45
+2026-11-12 14:06:38,BANK (off-phone),Bank server log,OTP_REQUEST MPIN_RESET from Redmi-X 203.0.113.45
+2026-11-12 14:06:40,ALEAPP,SMS mmssms.db,SMS Received from DBB-BANK: Your OTP for MockBank MPIN reset is 730158. Valid for 5 min. DO NOT share it with anyone.
+2026-11-12 14:06:40,DB Browser/sqlite,MockBank mockbank.db,OTP issued (MPIN_RESET) to +97517000001
+2026-11-12 14:06:41,custom parser,Notification log,Notification from messaging (DBB-BANK): Your OTP for MockBank MPIN reset is 730158...
+2026-11-12 14:07:50,BANK (off-phone),Bank server log,OTP_VERIFY_OK MPIN_RESET from Redmi-X 203.0.113.45
+2026-11-12 14:08:02,ALEAPP,SMS mmssms.db,SMS Received from DBB-BANK: MockBank alert: your account TEST-0001 was activated on a NEW device (Redmi-X). If this was not
+2026-11-12 14:08:02,BANK (off-phone),Bank server log,DEVICE_BOUND old device DEV-VICTIM-01 revoked from Redmi-X 203.0.113.45
+2026-11-12 14:08:03,custom parser,Notification log,Notification from messaging (DBB-BANK): MockBank alert: new device activated
+2026-11-12 14:09:09,BANK (off-phone),Bank server log,TRANSFER 30000.00 to ****7788 from Redmi-X 203.0.113.45
+2026-11-12 14:09:10,ALEAPP,SMS mmssms.db,"SMS Received from DBB-BANK: MockBank: Nu 30,000.00 debited to A/C ****7788. Avl bal Nu 20,000.00."
+2026-11-12 14:09:11,custom parser,Notification log,"Notification from messaging (DBB-BANK): MockBank: Nu 30,000.00 debited"
+2026-11-12 14:09:47,BANK (off-phone),Bank server log,TRANSFER 19950.00 to ****5521 from Redmi-X 203.0.113.45
+2026-11-12 14:09:48,ALEAPP,SMS mmssms.db,"SMS Received from DBB-BANK: MockBank: Nu 19,950.00 debited to A/C ****5521. Avl bal Nu 50.00."
+2026-11-12 14:09:49,custom parser,Notification log,"Notification from messaging (DBB-BANK): MockBank: Nu 19,950.00 debited"
+2026-11-12 14:10:00,ALEAPP,UsageStats protobuf,App com.android.dialer moved to background
+2026-11-12 14:10:15,ALEAPP,UsageStats protobuf,App com.whatsapp moved to FOREGROUND
+2026-11-12 14:10:20,ALEAPP,WhatsApp msgstore.db,"SENT to ~Prize Officer: ""ok sir i gave the code. when will i get the prize?"""
+2026-11-12 14:11:30,ALEAPP,WhatsApp msgstore.db,"RECEIVED from ~Prize Officer: ""Prize will be credited in 24 hours. Do not open your bank app or tell your family."""
+2026-11-12 14:11:31,custom parser,Notification log,Notification from whatsapp (~Prize Officer): Prize will be credited in 24 hours...
+2026-11-12 14:11:40,ALEAPP,UsageStats protobuf,App com.whatsapp moved to background
+2026-11-12 14:13:15,ALEAPP,UsageStats protobuf,App bt.casestudy.mockbank moved to FOREGROUND
+2026-11-12 14:13:15,DB Browser/sqlite,MockBank mockbank.db,APP_OPEN on DEV-VICTIM-01: REJECTED_DEVICE_UNBOUND
+2026-11-12 14:13:40,DB Browser/sqlite,MockBank mockbank.db,LOGIN_MPIN on DEV-VICTIM-01: REJECTED_MPIN_CHANGED
+2026-11-12 14:13:50,ALEAPP,UsageStats protobuf,App bt.casestudy.mockbank moved to background
+2026-11-12 14:14:20,ALEAPP,UsageStats protobuf,App com.whatsapp moved to FOREGROUND
+2026-11-12 14:14:30,ALEAPP,WhatsApp msgstore.db,"SENT to Karma (friend): ""Someone took all my money from the bank app!! I think the lucky draw was a scam. Please ca"""
+2026-11-12 14:15:05,ALEAPP,WhatsApp msgstore.db,"RECEIVED from Karma (friend): ""Call the bank hotline NOW and freeze the account. Then go to the police."""
+2026-11-12 14:16:00,ALEAPP,UsageStats protobuf,App com.whatsapp moved to background
+2026-11-12 14:16:18,ALEAPP,UsageStats protobuf,App com.android.dialer moved to FOREGROUND
+2026-11-12 14:16:20,ALEAPP,Call log calllog.db,"Outgoing call +97522000000, duration 241s (4m01s)"
+2026-11-12 14:20:05,ALEAPP,Call log calllog.db,"Outgoing call +97577000222, duration 0s (0m00s)"
+2026-11-12 14:20:10,ALEAPP,UsageStats protobuf,App com.android.dialer moved to background

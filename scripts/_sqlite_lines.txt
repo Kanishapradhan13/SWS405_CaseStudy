@@ -1,0 +1,11 @@
+$ sqlite3 -header -column mockbank.db "select ... from auth_events"
+id          btt            event       device_id            result
+--  -------------------  ----------  -------------  -----------------------
+ 1  2026-11-12 09:12:03  APP_OPEN    DEV-VICTIM-01  OK
+ 2  2026-11-12 14:13:15  APP_OPEN    DEV-VICTIM-01  REJECTED_DEVICE_UNBOUND
+ 3  2026-11-12 14:13:40  LOGIN_MPIN  DEV-VICTIM-01  REJECTED_MPIN_CHANGED
+
+$ sqlite3 ... "select device_id, model, active from device_bindings"
+  device_id          model         active
+-------------  ------------------  ------
+DEV-VICTIM-01  Pixel-6 (emulated)       0

@@ -1,0 +1,38 @@
+[
+ {
+  "post_ms": 1794470691000,
+  "package": "com.google.android.apps.messaging",
+  "title": "DBB-BANK",
+  "text": "Your OTP for MockBank device registration is 482913..."
+ },
+ {
+  "post_ms": 1794470801000,
+  "package": "com.google.android.apps.messaging",
+  "title": "DBB-BANK",
+  "text": "Your OTP for MockBank MPIN reset is 730158..."
+ },
+ {
+  "post_ms": 1794470883000,
+  "package": "com.google.android.apps.messaging",
+  "title": "DBB-BANK",
+  "text": "MockBank alert: new device activated"
+ },
+ {
+  "post_ms": 1794470951000,
+  "package": "com.google.android.apps.messaging",
+  "title": "DBB-BANK",
+  "text": "MockBank: Nu 30,000.00 debited"
+ },
+ {
+  "post_ms": 1794470989000,
+  "package": "com.google.android.apps.messaging",
+  "title": "DBB-BANK",
+  "text": "MockBank: Nu 19,950.00 debited"
+ },
+ {
+  "post_ms": 1794471091000,
+  "package": "com.whatsapp",
+  "title": "~Prize Officer",
+  "text": "Prize will be credited in 24 hours..."
+ }
+]

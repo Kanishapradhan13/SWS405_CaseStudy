@@ -1,0 +1,17 @@
+bcrypt==5.0.0
+beautifulsoup4==4.8.2
+bencoding
+fitdecode==0.10.0
+dulwich==1.2.21
+folium==0.14.0
+msgpack==1.2.3
+packaging>=24.0
+pillow==13.0.0
+polyline==2.0.0
+protobuf==5.29.6
+PyCryptodome
+pytz
+simplekml
+wheel
+xlsxwriter==3.1.1
+xmltodict

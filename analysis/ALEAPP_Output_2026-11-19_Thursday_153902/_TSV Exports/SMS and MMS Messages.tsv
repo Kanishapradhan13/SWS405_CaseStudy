@@ -1,0 +1,6 @@
+﻿Date	Date Sent	Direction	Address	Body	Media	Message Type	MSG ID	Thread ID	Read	To Address	Cc	Bcc	Contact ID	Service Center	Error Code	Source Table
+2026-11-12 08:04:50+00:00	2026-11-12 08:04:48.800000+00:00	Received	DBB-BANK	Your OTP for MockBank device registration is 482913. Valid for 5 min. DO NOT share it with anyone, including bank staff.		SMS	1	1	0					+97517999999	-1	sms
+2026-11-12 08:06:40+00:00	2026-11-12 08:06:38.800000+00:00	Received	DBB-BANK	Your OTP for MockBank MPIN reset is 730158. Valid for 5 min. DO NOT share it with anyone.		SMS	2	1	0					+97517999999	-1	sms
+2026-11-12 08:08:02+00:00	2026-11-12 08:08:00.800000+00:00	Received	DBB-BANK	MockBank alert: your account TEST-0001 was activated on a NEW device (Redmi-X). If this was not you call 2000000.		SMS	3	1	0					+97517999999	-1	sms
+2026-11-12 08:09:10+00:00	2026-11-12 08:09:08.800000+00:00	Received	DBB-BANK	MockBank: Nu 30,000.00 debited to A/C ****7788. Avl bal Nu 20,000.00.		SMS	4	1	0					+97517999999	-1	sms
+2026-11-12 08:09:48+00:00	2026-11-12 08:09:46.800000+00:00	Received	DBB-BANK	MockBank: Nu 19,950.00 debited to A/C ****5521. Avl bal Nu 50.00.		SMS	5	1	0					+97517999999	-1	sms

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ALEAPP - WhatsApp - One To One Messages report</title>
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="_elements/dark-mode.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="_elements/all.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="_elements/Roboto.css">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
+        <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <!-- Highlight.js -->
+        <link rel="stylesheet" href="_elements/highlight.min.css">
+        <script src="_elements/highlight.min.js"></script>
+        <!-- Cal-Heatmap -->
+        <script src="_elements/d3.v7.min.js"></script>
+        <script src="_elements/cal-heatmap.min.js"></script>
+        <link rel="stylesheet" href="_elements/cal-heatmap.css">
+        <script src="_elements/popper.min.js"></script>
+        <script src="_elements/Tooltip.min.js"></script>
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="_elements/dashboard.css">
+        <link rel="stylesheet" href="_elements/chat.css">
+        <link rel="stylesheet" href="_elements/tabler-icons.css">
+        <!-- MDBootstrap Datatables  -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/addons/datatables.min.css" rel="stylesheet">
+        <link href="_elements/timeline/css/timeline.min.css" rel="stylesheet" />
+
+    </head>
+    <body>
+
+    <!-- Start your project here-->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">ALEAPP 2026.4.6-dev</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label mr-2" for="darkSwitch" style="color:white">Dark Switch</label>
+        </div>
+        <script src="_elements/dark-mode-switch.js"></script>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-2 d-none d-md-block bg-dark sidebar">
+                <div class="sidebar-sticky" id="sidebar_id">
+                    <ul class="nav flex-column">
+
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1">
+            Saved Reports
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">
+                <span class="ti ti-home"></span> Report Home
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1">
+            Call Logs
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_Log_Phone_Accounts.html">
+                <span class="ti ti-phone"></span> Call Log Phone Accounts
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_logs_.html">
+                <span class="ti ti-phone"></span> Call logs 
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1">
+            SMS & MMS
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS_Device_Clock_Gap.html">
+                <span class="ti ti-clock"></span> SMS Device Clock Gap
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS_Messages.html">
+                <span class="ti ti-message"></span> SMS Messages
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS_and_MMS_Messages.html">
+                <span class="ti ti-message"></span> SMS and MMS Messages
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1">
+            Usage Stats
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Usage_Stats.html">
+                <span class="ti ti-battery"></span> Usage Stats
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1">
+            WhatsApp
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WhatsApp_-_Call_Logs.html">
+                <span class="ti ti-phone"></span> WhatsApp - Call Logs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WhatsApp_-_Contacts.html">
+                <span class="ti ti-users"></span> WhatsApp - Contacts
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link  active" href="WhatsApp_-_One_To_One_Messages.html">
+                <span class="ti ti-message"></span> WhatsApp - One To One Messages
+            </a>
+        </li>
+        
+    <script>
+        var element = document.getElementById("sidebar_id");
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('navpos')) {
+            var nav_pos = parseInt(searchParams.get('navpos'));
+            if (!isNaN(nav_pos))
+                element.scrollTop = nav_pos;
+        }
+    </script>
+
+                    </ul>
+                    <br /><br />
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <img src="_elements/ALEAPP_banner.png" alt="ALEAPP banner">
+                    <h3 class="display-5">WhatsApp - One To One Messages report</h1>
+                    <h6 class="animated fadeIn mb-3">WhatsApp messages in chats whose jid is not a group (@g.us) or channel (@newsletter) jid (modern msgstore.db schema)</h6>
+                </div>
+
+                <div id="mySpinner" class="spinner-border text-info float-right" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+<h6>Total number of entries: 7</h6><p class="lead">WhatsApp - One To One Messages located at: data/data/com.whatsapp/databases/msgstore.db</p><br /><div class='table-responsive'><table id="dtBasicExample" class="table table-striped table-bordered table-xsm" cellspacing="0" ><thead><tr><th class="th-sm">Message Timestamp</th><th class="th-sm">Received Timestamp</th><th class="th-sm">Final Location Timestamp</th><th class="th-sm">Message Direction</th><th class="th-sm">Other Participant WA User Name</th><th class="th-sm">Message</th><th class="th-sm">Media</th><th class="th-sm">Sending Party JID</th><th class="th-sm">Message Type</th><th class="th-sm">Local Path To Media</th><th class="th-sm">Media File Size</th><th class="th-sm">Shared Latitude/Starting Latitude (Live Location)</th><th class="th-sm">Shared Longitude/Starting Longitude (Live Location)</th><th class="th-sm">Duration Live Location Shared (Seconds)</th><th class="th-sm">Final Live Latitude</th><th class="th-sm">Final Live Longitude</th><th class="th-sm">Other Participant JID</th></tr></thead><tbody><tr><td>2026-11-12 07:58:30+00:00</td><td>2026-11-12 07:58:30+00:00</td><td></td><td>Incoming</td><td>~Prize Officer</td><td>Congratulations! Your number has WON Nu 500,000 in the Druk Mega Lucky Draw 2026. Reply YES to claim your prize.</td><td></td><td>97577000222@s.whatsapp.net</td><td>Text</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>97577000222@s.whatsapp.net</td></tr><tr><td>2026-11-12 07:59:12+00:00</td><td>2026-11-12 07:59:12+00:00</td><td></td><td>Outgoing</td><td>~Prize Officer</td><td>Really? What should I do?</td><td></td><td></td><td>Text</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>97577000222@s.whatsapp.net</td></tr><tr><td>2026-11-12 08:01:05+00:00</td><td>2026-11-12 08:01:05+00:00</td><td></td><td>Incoming</td><td>~Prize Officer</td><td>Do not tell anyone. I am a prize officer. I will call you now to verify your account. Keep your phone near you.</td><td></td><td>97577000222@s.whatsapp.net</td><td>Text</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>97577000222@s.whatsapp.net</td></tr><tr><td>2026-11-12 08:10:20+00:00</td><td>2026-11-12 08:10:20+00:00</td><td></td><td>Outgoing</td><td>~Prize Officer</td><td>ok sir i gave the code. when will i get the prize?</td><td></td><td></td><td>Text</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>97577000222@s.whatsapp.net</td></tr><tr><td>2026-11-12 08:11:30+00:00</td><td>2026-11-12 08:11:30+00:00</td><td></td><td>Incoming</td><td>~Prize Officer</td><td>Prize will be credited in 24 hours. Do not open your bank app or tell your family.</td><td></td><td>97577000222@s.whatsapp.net</td><td>Text</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>97577000222@s.whatsapp.net</td></tr><tr><td>2026-11-12 08:14:30+00:00</td><td>2026-11-12 08:14:30+00:00</td><td></td><td>Outgoing</td><td>Karma (friend)</td><td>Someone took all my money from the bank app!! I think the lucky draw was a scam. Please call me</td><td></td><td></td><td>Text</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>97517000003@s.whatsapp.net</td></tr><tr><td>2026-11-12 08:15:05+00:00</td><td>2026-11-12 08:15:05+00:00</td><td></td><td>Incoming</td><td>Karma (friend)</td><td>Call the bank hotline NOW and freeze the account. Then go to the police.</td><td></td><td>97517000003@s.whatsapp.net</td><td>Text</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>97517000003@s.whatsapp.net</td></tr></tbody><tfoot><tr><th>Message Timestamp</th><th>Received Timestamp</th><th>Final Location Timestamp</th><th>Message Direction</th><th>Other Participant WA User Name</th><th>Message</th><th>Media</th><th>Sending Party JID</th><th>Message Type</th><th>Local Path To Media</th><th>Media File Size</th><th>Shared Latitude/Starting Latitude (Live Location)</th><th>Shared Longitude/Starting Longitude (Live Location)</th><th>Duration Live Location Shared (Seconds)</th><th>Final Live Latitude</th><th>Final Live Longitude</th><th>Other Participant JID</th></tr></tfoot></table></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/addons/datatables.min.js"></script>
+    <!-- Chart.js -->
+    <script type="text/javascript" src="_elements/chart.umd.min.js"></script>
+    <script type="text/javascript" src="_elements/moment.min.js"></script>
+    <script type="text/javascript" src="_elements/timeline/js/timeline.min.js"></script>
+    <!-- Garmin Functions -->
+    <script type="text/javascript" src="_elements/garmin-functions.js"></script>
+    <script type="text/javascript" src="_elements/chat.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#dtBasicExample').DataTable({
+                //"scrollY": "60vh",
+                //"scrollX": "10%",
+                //"scrollCollapse": true,
+                "aLengthMenu": [[ 15, 50, 100, -1 ], [ 15, 50, 100, "All" ]],
+            });
+            $('.dataTables_length').addClass('bs-select');
+            $('#mySpinner').remove();
+            //$('#infiniteLoading').remove();
+        });
+    </script>
+
+    <script>
+        var elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("sidebar_id");
+            element.addEventListener("scroll", function() {
+                elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+            });
+        });
+        $('a.nav-link').click(function(e) {
+            e.preventDefault();
+            location.href = $(this).attr('href') + "?navpos=" + elemScrollTop;
+        });
+    </script>
+
+    </body>
+</html>

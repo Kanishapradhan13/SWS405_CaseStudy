@@ -1,0 +1,4 @@
+﻿Call Date	Phone Account Address	SIM ICCID	Phone Account Package	Partner	Raw Call Type (as stored)	Type	Duration in Secs	Partner Location	Country ISO	Data	Mime Type	Transcription	Deleted
+2026-11-12 08:03:45+00:00	 			+97577000222	1	"Incoming <i data-feather=""phone-incoming"" stroke=""green""></i>"	372	Bhutan	BT	 	 	 	0
+2026-11-12 08:16:20+00:00	 			+97522000000	2	"Outgoing <i data-feather=""phone-outgoing"" stroke=""green""></i>"	241	Bhutan	BT	 	 	 	0
+2026-11-12 08:20:05+00:00	 			+97577000222	2	"Outgoing <i data-feather=""phone-outgoing"" stroke=""green""></i>"	0	Bhutan	BT	 	 	 	0
